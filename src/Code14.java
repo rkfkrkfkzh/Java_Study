@@ -9,7 +9,7 @@ public class Code14 {
         for (int i = 0; i < n; i++) {
             data[i] = kb.nextInt();
             kb.close();
-            for (int i = 1; i > 0; i--) {
+            for (i = 1; i > 0; i--) {
                 for (int j = 0; j < i; j++) {
                     if (data[j] > data[j + 1]) {
                         int tmp = data[j];
@@ -18,7 +18,7 @@ public class Code14 {
                     }
                 }
                 System.out.println("Sorted data:");
-                for (int i = 0; i < n; i++) {
+                for (i = 0; i < n; i++) {
                     System.out.println(data[i]);
 
                 }
