@@ -7,7 +7,7 @@ public class Code13 {
                 for (int k = i; k < j; k++) {
                     val = val * 10 + data[k];
                     boolean isPrime = true;
-                    for (int p = 2; p < val / 2 && isPrime <; p++) {
+                    for (int p = 2; p < val / 2 && isPrime ; p++) {
                         if (val % p == 0) isPrime = false;
                     }
                     if (isPrime && val > 1 && val > maxPrime)
